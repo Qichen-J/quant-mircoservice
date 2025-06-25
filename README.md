@@ -115,8 +115,17 @@ A workflow is defined in `.github/workflows/ci.yml`, which runs on every push an
 
 ---
 
-## License
+## Project Structure
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+```
+quant-microservice/
+├── app.py                   # Flask application entrypoint
+├── requirements.txt         # Python dependencies
+├── Dockerfile               # Docker image build script
+├── tests/
+│   └── test_app.py          # Unit tests
+└── .github/
+    └── workflows/
+        └── ci.yml           # CI workflow configuration
+```
 
-   
