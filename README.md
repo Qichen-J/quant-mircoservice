@@ -1,4 +1,4 @@
-# quant-microservice
+# task-microservice
 
 A Flask-based task management microservice example, covering:
 
